@@ -15,6 +15,9 @@ RUN apk add --update \
   gcc \
   musl-dev \
   linux-headers \
+  libffi-dev \
+  musl-dev \
+  openssl-dev \
   && pip install --upgrade --no-cache-dir pip setuptools python-openstackclient \
   && apk del gcc musl-dev linux-headers \
   && rm -rf /var/cache/apk/*
