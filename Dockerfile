@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Jim McVea <jmcvea@gmail.com>
+# MAINTAINER Jim McVea <jmcvea@gmail.com>
 
 LABEL Description="Provides openstack client tools" Version="0.1"
 
